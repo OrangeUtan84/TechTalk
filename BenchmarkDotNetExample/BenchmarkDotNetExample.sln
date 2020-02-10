@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkDotNetExample", "BenchmarkDotNetExample\BenchmarkDotNetExample.csproj", "{EA47FD98-55B2-4232-8310-3124D4464377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkTestApp", "BenchmarkTestApp\BenchmarkTestApp.csproj", "{ADE258A6-D939-4E79-9269-F098052F3E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA47FD98-55B2-4232-8310-3124D4464377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA47FD98-55B2-4232-8310-3124D4464377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA47FD98-55B2-4232-8310-3124D4464377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA47FD98-55B2-4232-8310-3124D4464377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE258A6-D939-4E79-9269-F098052F3E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE258A6-D939-4E79-9269-F098052F3E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE258A6-D939-4E79-9269-F098052F3E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE258A6-D939-4E79-9269-F098052F3E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B77CA19-37CE-478A-A099-19B448742246}
+	EndGlobalSection
+EndGlobal

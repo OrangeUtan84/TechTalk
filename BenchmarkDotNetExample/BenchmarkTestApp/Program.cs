@@ -33,6 +33,7 @@ namespace BenchmarkTestApp
         static void Main(string[] args)
         {
             var summary = BenchmarkRunner.Run<Program>();
+            //lets see if this still compiles after adding a comment
 
         }
     }

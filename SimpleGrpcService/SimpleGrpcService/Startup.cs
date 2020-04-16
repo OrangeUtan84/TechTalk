@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SimpleGrpcService.Services;
 
 namespace SimpleGrpcService
 {
@@ -32,6 +33,7 @@ namespace SimpleGrpcService
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<TimeProviderService>();
 
                 endpoints.MapGet("/", async context =>
                 {

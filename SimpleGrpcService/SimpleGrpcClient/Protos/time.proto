@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "SimpleGrpcService";
+
+package time;
+
+service TimeProvider {
+	rpc GetTime (TimeRequest) returns (stream TimeResponse);
+}
+
+message TimeRequest
+{
+  
+}
+
+message TimeResponse
+{
+	string timeString = 1;
+}
